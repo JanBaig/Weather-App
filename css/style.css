@@ -1,0 +1,215 @@
+body {
+  background-color: #a9a9a9;
+}
+
+body #title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  position: absolute;
+  left: 40%;
+  top: -3%;
+  color: #fd837a;
+}
+
+body #title2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  position: absolute;
+  left: 40.4%;
+  top: -3%;
+  color: white;
+}
+
+body #map {
+  position: absolute;
+  height: 58vh;
+  width: 69vh;
+  top: 25%;
+  left: 38.5%;
+  border-style: solid;
+  border-color: #fd837a;
+  border-width: 9px;
+}
+
+body #legend {
+  position: absolute;
+  top: 72.5%;
+  left: 17.7%;
+  width: 225px;
+  height: 70px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 0px;
+  border-color: #fd837a;
+  border-width: 8px;
+}
+
+body #legend #legend_title {
+  text-align: center;
+  line-height: 4px;
+  font-size: 16.5px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body #legend #color_legend {
+  position: absolute;
+  top: 43.4%;
+  left: 9.5%;
+  width: 180px;
+  height: 15px;
+  border-style: solid;
+  border-color: #fd837a;
+}
+
+body #legend #legend_text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body #btn1 {
+  position: absolute;
+  top: 28%;
+  left: 76%;
+}
+
+body #btn2 {
+  position: absolute;
+  top: 39%;
+  left: 76%;
+}
+
+body #btn3 {
+  position: absolute;
+  top: 50%;
+  left: 73.7%;
+}
+
+body #btn4 {
+  position: absolute;
+  top: 61%;
+  left: 75.3%;
+}
+
+body #btn5 {
+  position: absolute;
+  top: 72%;
+  left: 75.6%;
+}
+
+body .map_btns {
+
+  background-color: #fff;
+  border: 2px solid #fd837a;
+  border-radius: 30px;
+  box-shadow: #fd837a 4px 4px 0 0;
+  color: #fd837a;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+body .map_btns:hover {
+  background-color: #fbeee0cc;
+}
+
+body .map_btns:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .body .map_btns {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.outer-container {
+  background-color: #fd837a;
+  width: 40vh;
+  height: 47vh;
+  position: absolute;
+  top: 47.5%;
+  left: 27%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.outer-container .outer-header {
+  background-color: white;
+  width: 93%;
+  height: 9.5vh;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.outer-container .outer-header p {
+  font-size: 5vh;
+  text-align: center;
+  vertical-align: middle;
+  line-height: -0px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.outer-container .outer-block {
+  background-color: white;
+  width: 93%;
+  height: 68%;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.outer-container .outer-block .notif {
+  position: relative;
+  text-align: center;
+  top: 5%;
+}
+
+.outer-container .outer-block .icon {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  top: -4%;
+}
+
+.outer-container .outer-block .temp {
+  position: relative;
+  text-align: center;
+  top: -11%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.outer-container .outer-block .desc {
+  position: relative;
+  text-align: center;
+  top: -11%;
+  margin-top: 0rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 17px;
+}
+
+.outer-container .outer-block .location {
+  position: relative;
+  text-align: center;
+  top: -11%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */

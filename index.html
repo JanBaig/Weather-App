@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+</head>
+<body>
+
+    <p id='title'>Weather App</p>
+    <p id='title2'>Weather App</p>
+ 
+    <div class='outer-container'>
+
+        <div class='outer-header'>
+            <p> Current Weather</p>
+        </div>
+
+        <div class='outer-block'>
+            
+            <div class='notif'></div>
+            <div class='icon'>
+                <img src='./icons/unknown.png'><img>
+            </div>
+            <div class='temp'>Celcius</div>
+            <div class='desc'>Description</div>
+            <div class='location'>Location</div>
+            
+            
+        </div>
+
+    </div>
+
+    <div id='map'></div>
+    <!--Different Map Layers Buttons-->
+    
+    <button  class ='map_btns' id='btn1'>Temp</button>
+    <button  class ='map_btns' id='btn2'>Wind</button>
+    <button  class ='map_btns' id='btn3'>Precipitation</button>
+    <button  class ='map_btns' id='btn4'>Pressure</button>
+    <button  class ='map_btns' id='btn5'>Clouds</button>
+    
+    
+    <div id='legend' >
+        <p id='legend_title'>Legend</p>
+        <p id='legend_text'>
+        Click on the buttons!</p>
+        <div id='color_legend'></div>
+    </div>
+
+    <!--External Files-->
+    <link rel='stylesheet' href='./css/style.css'></link>
+    <script src='script.js'></script>
+
+</body>
+</html>
